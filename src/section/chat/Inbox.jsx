@@ -160,7 +160,7 @@ function Inbox() {
       <div className="sticky bottom-0 border-t border-stroke bg-white px-6 py-5 dark:border-strokedark dark:bg-boxdark">
         <form className="flex flex-row items-center justify-between space-x-4.5">
             <div className="relative w-full">
-                <input type="text" placeholder="Type your message" className="h-13 w-full rounded-md border border-stroke bg-grey pl-5 pr-19 text-black placeholder-body outline-none focus:border-primary dark:border-strokedark dark:bg-boxdark2 dark:text-white " />
+                <input type="text" placeholder="Type your message" className="h-13 w-full rounded-md border border-stroke bg-grey pl-5 pr-19 text-black placeholder-body outline-none focus:border-primary dark:border-strokedark dark:bg-boxdark-2 dark:text-white " />
                 <div className="absolute right-5 top-1/2 -translate-y-1/2 flex items-center justify-end space-x-4" >
                 <button classNam e="hover:text-primary">
                     <LinkSimple size={20}/>

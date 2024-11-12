@@ -72,7 +72,7 @@ function Chatlist() {
           <input
             placeholder="Search"
             type="text"
-            className="w-full rounded border border-stroke bg-gray-2 py-2.5 pl-5 pr-10 text-sm outline-none focus:border-primary dark:border-strokedark dark:bg-bodydark2"
+            className="w-full rounded border border-stroke bg-gray-2 py-2.5 pl-5 pr-10 text-sm outline-none focus:border-primary dark:border-strokedark dark:bg-boxdark-2"
           />
           <button className="absolute right-4 top-1/2 -translate-y-1/2">
             <MagnifyingGlass size={20} />
