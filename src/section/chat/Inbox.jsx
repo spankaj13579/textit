@@ -1,6 +1,7 @@
 import React from "react";
 import user01 from "../../images/user/user-01.png";
 import { DotsThree, LinkSimple, PaperPlaneTilt, Smiley } from "@phosphor-icons/react";
+import Dropdown from "../../components/Dropdown";
 
 function Inbox() {
   return (
@@ -23,7 +24,7 @@ function Inbox() {
           </div>
         </div>
         <div>
-          <DotsThree size={24} weight="bold" className="cursor-pointer" />
+          <Dropdown />
         </div>
       </div>
       {/* list of messages */}
@@ -162,7 +163,7 @@ function Inbox() {
             <div className="relative w-full">
                 <input type="text" placeholder="Type your message" className="h-13 w-full rounded-md border border-stroke bg-grey pl-5 pr-19 text-black placeholder-body outline-none focus:border-primary dark:border-strokedark dark:bg-boxdark-2 dark:text-white " />
                 <div className="absolute right-5 top-1/2 -translate-y-1/2 flex items-center justify-end space-x-4" >
-                <button classNam e="hover:text-primary">
+                <button className="hover:text-primary">
                     <LinkSimple size={20}/>
                 </button>
                 <button className="hover:text-primary">
